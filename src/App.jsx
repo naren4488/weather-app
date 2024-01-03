@@ -80,7 +80,7 @@
 
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./app.css";
+import "./App.css";
 
 const SearchBar = ({ onSearch }) => {
   const [city, setCity] = useState("");
