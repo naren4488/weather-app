@@ -51,7 +51,7 @@ function App() {
 
         {loading && <p>Loading data...</p>}
         {!loading && weatherData && (
-          <div className="cards-wrapper">
+          <div className="weather-cards">
             <WeatherCard
               title="Temperature"
               value={`${weatherData.current.temp_c}°C`}
